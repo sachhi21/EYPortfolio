@@ -1,0 +1,279 @@
+
+body,ul{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: Ubuntu;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0px auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow:0 1px 4px rgba(146,161,176,.15);
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+}
+.brand-name{
+    float: left;
+    font-size: 24px;
+    font-family: 'Otomanopee', cursive;
+    font-weight: 999;
+    height: 70px;
+    margin-left: 20px;
+    color: #0E2431;
+    line-height:70px;
+}
+.nav{
+    float: right;
+    display: block;
+}
+.header ul{
+    list-style: none;
+    margin: 0px;
+}
+.header ul li{
+    display: inline;
+    height: 70px;
+    line-height: 70px;
+    margin: 10px 20px;
+}
+.header ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Otomanopee', cursive;
+    padding: 10px 0ex;
+    color: #0E2431;
+    border-bottom: 2px solid transparent;
+}
+.header ul li a:hover{
+    border-bottom: 2px solid #19374a;
+    transition: .2s ease-in;
+}
+
+
+.main-banner{
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+}
+
+.main-banner p,.intro-name,.intro-name1{
+    font-size: 50px;
+    font-family: Ubuntu;
+    text-align: left;
+    
+    font-weight: 900;
+    word-spacing: 12px;
+    color:#0E2431 ;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.main-banner p span{
+    color: #2793d4;
+    font-family:Ubuntu;
+}
+
+.intro{
+    padding-left: 40px;
+    float: left;
+    padding-top: 50px;
+    margin: 100px 0;    
+}
+
+.contact-btn{
+    width: 140px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: 'Ubuntu',sans-serif;
+    background-color:#2793d4;
+    color: white;
+    outline: 0;
+    cursor: pointer;
+    border: #2793d4;
+    border-radius: 10px;
+    margin-left: -9px;
+}
+.contact-btn:hover{
+    box-shadow:0 10px 36px rgba(0,0,0,.15)
+}
+.social{
+    margin-top: 50px;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-right:30px;
+    transition: all .3s ease-in;
+    border:3px solid transparent;
+    padding-bottom: 10px;
+}
+.social img:hover{
+    border-bottom:3px solid #2793d4;
+    transition: all .3s ease-in;
+}
+.me{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-top: 120px;
+    float: right;
+    width: 40%;
+    height: 70%;
+    position: relative;
+    margin-right: 50px;
+}
+
+.main-about{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.section-title{
+    font-size: 30px;
+    font-family: Ubuntu;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    word-spacing: 12px;
+    color:#2793d4;
+    border-bottom: 2px solid #2793d4;    
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.about,.skill,.work{
+    margin: 50px 0;   
+}
+.col-left{
+    width: 100%;
+    float: none;
+}
+.col-right{
+    float: left;
+    margin-left: 40px;
+    align-items: center;
+    text-align: center;
+    width:100%;
+}
+.about img{
+    width: 300px;
+    height:500px;
+    border-radius: 15px;
+}
+.about p{
+    text-align: left;
+    float: left;
+    opacity: 0.7;
+    visibility: visible;
+    width: auto;
+    
+    font-size: 15px;
+}
+.intro-name{
+    font-size: 30px;
+    margin-top: 2px;
+    float: none;
+}
+
+.project{
+    box-sizing: border-box;
+}
+.section-title {
+    font-size: 30px;
+    font-family: Ubuntu;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    word-spacing: 12px;
+    color: #2793d4;
+    border-bottom: 2px solid #2793d4;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+
+
+.contact-section{
+    text-align: center;
+}
+.contact__input {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid #0E2431;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+.contact-section form{
+    width: 360px;
+}
+.bd-grid1{
+    margin-top: 4rem;
+    width: calc(100% - 2rem);
+}
+.contact-form{
+    margin: 0 auto;
+}
+.button{
+    width: 140px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Ubuntu',sans-serif;
+    background-color: #2793d4;
+    outline: 0;
+    border: 0.1px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 29px; 
+}
+.button:hover{
+    box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
+
+form { 
+    margin: 0 auto; 
+    width:250px;
+    }
+
+.footer{
+    
+margin: 0 auto; 
+width:250px;
+
+    
+}
+.footer-container{
+    display: block;
+}
+.Follow .container .h3{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.footer-social i{
+    font-size: 1.5rem;
+    color: rgb(14, 1, 1);
+    margin:10px;
+} 
